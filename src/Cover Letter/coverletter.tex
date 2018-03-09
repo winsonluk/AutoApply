@@ -1,0 +1,135 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\name{Winson}{Luk}
+\position{University of California, San Diego{\enskip\cdotp\enskip}B.S. Computer Engineering}
+\address{San Mateo, CA 94065}
+
+\mobile{(650) 302-3189}
+\email{winson@luk.cc}
+\homepage{winsonluk.com}
+%\github{winsonluk}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {COMPANY}
+  {ADDRESS\\CITY, STATE ZIP}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Summer 2018 ROLE Application}
+% How the letter is opened
+\letteropening{}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I am a rising junior at UC San Diego majoring in computer engineering. I was born and raised in the San Francisco Bay Area, where my family still lives. Growing up in the heart of Silicon Valley, I spent my early years tinkering with technology from operating systems to websites, and I never stopped. These experiences shaped my interest in software development, providing me with a extremely solid technical background that form the basis of my desire to work for COMPANY.
+
+In high school I elevated my passion for technology from a hobby to an ambition. I was extremely successful in founding and managing an engineering design organization at my school. For three years I directed multiple student teams in their efforts to compete in the San Jose Tech Challenge, helping our school win a total of four regional awards. I committed to the entire operational spectrum of my organization, from technical guidance and oversight all the way through compliance and executive management.
+
+Since then, I have acquired substantial experience as an intern in diverse professional environments. During my senior year at high school, I worked as a content designer for a local tutoring firm to architect a full-length mathematics workbook. I spent my last summer as an intern at Synopsys, a S\&P 500 technology company headquartered in Mountain View, California. At Synopsys, I architected a Perl command line interface that automates ticket creation for Synopsys's global IT operations, and took the initiative to overhaul the existing automation system with an object-oriented approach that significantly reduced time-consuming API calls by over 70\%. My experiences here have refined my skills in communication and problem solving while helping me confirm my enthusiasm to apply my skills as a summer intern at COMPANY.
+
+\lettersection{Why COMPANY?}
+
+As a student who has excelled in courses ranging from psychology to economics to international relations, I value the diverse pursuits of COMPANY and hope to utilize my skills in technology with responsibilities outside the code base. With a track record of succeeding in both hands-on implementations as an engineer and important decision making as a manager, I have the knowledge and experience to strike the correct balance between technological and professional needs. Technically, I am fascinated by the ever more valuable data that COMPANY manages and collects, and I am eager to learn the specialized implementations behind COMPANY's robust technological infrastructure. And since it is clear that COMPANY has ambitious aspirations to make meaningful impacts with technology, as a summer intern I will cherish the responsibility to contribute towards that vision.
+
+I also value the coordination between different roles within an organization, and I respect the inherent need to cooperate between teams to reduce risks and increase efficiency. I would really hope to come to work every day to a place where I know not only are my skills valued, but my personal philosophies as well. And after reflecting on your noble mission and admirable employee culture, I am absolutely confident that I would be an excellent fit as an intern at your CITY office.
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

@@ -1,0 +1,22 @@
+
+
+
+CALENDAR: Email NAME from COMPANY on DAY
+
+
+
+SUBJECT: Summer internship opportunities
+
+
+
+Good TIME NAME,
+
+My name is Winson Luk, and I am a computer engineering student at UC San Diego who will be a rising
+junior this summer. I am genuinely interested in gaining practical experience at , and I believe that I would be an excellent fit in any team that is in need of a summer intern.
+
+I am aware of the opportunities articulated on your website, and I wanted to take the initiative of contacting you directly for recruitment. I have attached my resume and cover letter for consideration, and you can visit my website at winsonluk.com to learn more about my skills, projects, and passions. Most of my past projects are also on Github: github.com/winsonluk.
+
+Please let me know if there is a convenient time to briefly discuss potential internship opportunities over the summer. I look forward to hearing back from you soon.
+
+Best regards,
+Winson Luk

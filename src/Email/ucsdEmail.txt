@@ -1,0 +1,24 @@
+
+
+
+CALENDAR: Email NAME from COMPANY on DAY
+
+
+SUBJECT: UCSD student reaching out
+
+
+
+Good TIME NAME,
+
+My name is Winson Luk, and I am currently an undergraduate at UC San Diego studying computer engineering. While exploring opportunities in the software industry, I came across your details on SOURCE and wanted to get in touch.
+
+If you have a few minutes sometime, I would love to hear about your path from UCSD to COMPANY. I hope to find out what I can do to succeed as a developer and gain practical experience even as a student.
+
+Please let me know if there is a convenient time to briefly chat about your experiences and achievements in the field. I would especially appreciate any feedback on my resume or pointers to teams in need of a summer intern.
+
+Thank you for your consideration. I'm sure you have a busy schedule, so I'll provide a follow up email on Tuesday DAY in case this one is missed.
+
+I look forward to hearing back from you soon.
+
+Thank you,
+Winson
